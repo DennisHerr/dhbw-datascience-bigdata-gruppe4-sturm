@@ -123,4 +123,4 @@ ENV SPARK_YARN_USER_ENV=/usr/local/bin/python3.8
 # Hadoop 3.0 changed ports :-(
 EXPOSE 8020 8042 8088 9000 9868 9870 10020 19888 50010 50020 50090
 
-CMD ["/entrypoint.sh"]
+CMD [ "chmod", "+x","/entrypoint.sh"]
